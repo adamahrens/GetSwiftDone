@@ -8,23 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		43C318062B8F89BB00F231DB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 43C318052B8F89BB00F231DB /* ComposableArchitecture */; };
-		43C318082B8F8A2300F231DB /* TodoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C318072B8F8A2300F231DB /* TodoFeature.swift */; };
+		43C318082B8F8A2300F231DB /* CreateTodoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C318072B8F8A2300F231DB /* CreateTodoFeature.swift */; };
+		43C3180A2B8F8BDE00F231DB /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C318092B8F8BDE00F231DB /* Todo.swift */; };
+		43C318132B8FAED000F231DB /* ComposableTodosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C318122B8FAED000F231DB /* ComposableTodosTests.swift */; };
+		43C3181A2B8FB5E800F231DB /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C318192B8FB5E800F231DB /* AppFeature.swift */; };
+		43C3181C2B8FB86900F231DB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C3181B2B8FB86900F231DB /* AppView.swift */; };
 		43F7B7872B8F80A600C8799B /* ComposableTodosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F7B7862B8F80A600C8799B /* ComposableTodosApp.swift */; };
-		43F7B7892B8F80A600C8799B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F7B7882B8F80A600C8799B /* ContentView.swift */; };
+		43F7B7892B8F80A600C8799B /* CreateTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F7B7882B8F80A600C8799B /* CreateTodo.swift */; };
 		43F7B78B2B8F80A600C8799B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F7B78A2B8F80A600C8799B /* Assets.xcassets */; };
 		43F7B78E2B8F80A600C8799B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F7B78D2B8F80A600C8799B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		43C318142B8FAED000F231DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F7B77B2B8F80A500C8799B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F7B7822B8F80A500C8799B;
+			remoteInfo = ComposableTodos;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		43C318072B8F8A2300F231DB /* TodoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFeature.swift; sourceTree = "<group>"; };
+		43C318072B8F8A2300F231DB /* CreateTodoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodoFeature.swift; sourceTree = "<group>"; };
+		43C318092B8F8BDE00F231DB /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		43C3180B2B8F9BDE00F231DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		43C318102B8FAED000F231DB /* ComposableTodosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposableTodosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C318122B8FAED000F231DB /* ComposableTodosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableTodosTests.swift; sourceTree = "<group>"; };
+		43C318192B8FB5E800F231DB /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		43C3181B2B8FB86900F231DB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		43F7B7832B8F80A500C8799B /* ComposableTodos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComposableTodos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F7B7862B8F80A600C8799B /* ComposableTodosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableTodosApp.swift; sourceTree = "<group>"; };
-		43F7B7882B8F80A600C8799B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43F7B7882B8F80A600C8799B /* CreateTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodo.swift; sourceTree = "<group>"; };
 		43F7B78A2B8F80A600C8799B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F7B78D2B8F80A600C8799B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		43C3180D2B8FAED000F231DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43F7B7802B8F80A500C8799B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,10 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43C318112B8FAED000F231DB /* ComposableTodosTests */ = {
+			isa = PBXGroup;
+			children = (
+				43C318122B8FAED000F231DB /* ComposableTodosTests.swift */,
+			);
+			path = ComposableTodosTests;
+			sourceTree = "<group>";
+		};
 		43F7B77A2B8F80A500C8799B = {
 			isa = PBXGroup;
 			children = (
 				43F7B7852B8F80A500C8799B /* ComposableTodos */,
+				43C318112B8FAED000F231DB /* ComposableTodosTests */,
 				43F7B7842B8F80A500C8799B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				43F7B7832B8F80A500C8799B /* ComposableTodos.app */,
+				43C318102B8FAED000F231DB /* ComposableTodosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +92,15 @@
 		43F7B7852B8F80A500C8799B /* ComposableTodos */ = {
 			isa = PBXGroup;
 			children = (
+				43C3180B2B8F9BDE00F231DB /* Info.plist */,
 				43F7B7862B8F80A600C8799B /* ComposableTodosApp.swift */,
-				43F7B7882B8F80A600C8799B /* ContentView.swift */,
 				43F7B78A2B8F80A600C8799B /* Assets.xcassets */,
 				43F7B78C2B8F80A600C8799B /* Preview Content */,
-				43C318072B8F8A2300F231DB /* TodoFeature.swift */,
+				43F7B7882B8F80A600C8799B /* CreateTodo.swift */,
+				43C318072B8F8A2300F231DB /* CreateTodoFeature.swift */,
+				43C3181B2B8FB86900F231DB /* AppView.swift */,
+				43C318192B8FB5E800F231DB /* AppFeature.swift */,
+				43C318092B8F8BDE00F231DB /* Todo.swift */,
 			);
 			path = ComposableTodos;
 			sourceTree = "<group>";
@@ -75,6 +116,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		43C3180F2B8FAED000F231DB /* ComposableTodosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C318162B8FAED000F231DB /* Build configuration list for PBXNativeTarget "ComposableTodosTests" */;
+			buildPhases = (
+				43C3180C2B8FAED000F231DB /* Sources */,
+				43C3180D2B8FAED000F231DB /* Frameworks */,
+				43C3180E2B8FAED000F231DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C318152B8FAED000F231DB /* PBXTargetDependency */,
+			);
+			name = ComposableTodosTests;
+			productName = ComposableTodosTests;
+			productReference = 43C318102B8FAED000F231DB /* ComposableTodosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		43F7B7822B8F80A500C8799B /* ComposableTodos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43F7B7912B8F80A600C8799B /* Build configuration list for PBXNativeTarget "ComposableTodos" */;
@@ -105,6 +164,10 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					43C3180F2B8FAED000F231DB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 43F7B7822B8F80A500C8799B;
+					};
 					43F7B7822B8F80A500C8799B = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -127,11 +190,19 @@
 			projectRoot = "";
 			targets = (
 				43F7B7822B8F80A500C8799B /* ComposableTodos */,
+				43C3180F2B8FAED000F231DB /* ComposableTodosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		43C3180E2B8FAED000F231DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43F7B7812B8F80A500C8799B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,19 +215,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		43C3180C2B8FAED000F231DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C318132B8FAED000F231DB /* ComposableTodosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43F7B77F2B8F80A500C8799B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F7B7892B8F80A600C8799B /* ContentView.swift in Sources */,
+				43F7B7892B8F80A600C8799B /* CreateTodo.swift in Sources */,
+				43C3181A2B8FB5E800F231DB /* AppFeature.swift in Sources */,
+				43C3181C2B8FB86900F231DB /* AppView.swift in Sources */,
 				43F7B7872B8F80A600C8799B /* ComposableTodosApp.swift in Sources */,
-				43C318082B8F8A2300F231DB /* TodoFeature.swift in Sources */,
+				43C318082B8F8A2300F231DB /* CreateTodoFeature.swift in Sources */,
+				43C3180A2B8F8BDE00F231DB /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		43C318152B8FAED000F231DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F7B7822B8F80A500C8799B /* ComposableTodos */;
+			targetProxy = 43C318142B8FAED000F231DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		43C318172B8FAED000F231DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM75P97468;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appsbyahrens.ComposableTodosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComposableTodos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ComposableTodos";
+			};
+			name = Debug;
+		};
+		43C318182B8FAED000F231DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM75P97468;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appsbyahrens.ComposableTodosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComposableTodos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ComposableTodos";
+			};
+			name = Release;
+		};
 		43F7B78F2B8F80A600C8799B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -287,6 +413,7 @@
 				DEVELOPMENT_TEAM = DM75P97468;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComposableTodos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +443,7 @@
 				DEVELOPMENT_TEAM = DM75P97468;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComposableTodos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +465,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		43C318162B8FAED000F231DB /* Build configuration list for PBXNativeTarget "ComposableTodosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C318172B8FAED000F231DB /* Debug */,
+				43C318182B8FAED000F231DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		43F7B77E2B8F80A500C8799B /* Build configuration list for PBXProject "ComposableTodos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
