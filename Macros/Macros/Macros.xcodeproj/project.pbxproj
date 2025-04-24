@@ -11,7 +11,6 @@
 		43C317F72B8F864400F231DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C317F62B8F864400F231DB /* ContentView.swift */; };
 		43C317F92B8F864500F231DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C317F82B8F864500F231DB /* Assets.xcassets */; };
 		43C317FC2B8F864500F231DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C317FB2B8F864500F231DB /* Preview Assets.xcassets */; };
-		43C318032B8F86EC00F231DB /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C318022B8F86EC00F231DB /* URLRequestBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		43C317F62B8F864400F231DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43C317F82B8F864500F231DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C317FB2B8F864500F231DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		43C318022B8F86EC00F231DB /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +51,6 @@
 		43C317F32B8F864400F231DB /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				43C318022B8F86EC00F231DB /* URLRequestBuilder.swift */,
 				43C317F42B8F864400F231DB /* MacrosApp.swift */,
 				43C317F62B8F864400F231DB /* ContentView.swift */,
 				43C317F82B8F864500F231DB /* Assets.xcassets */,
@@ -142,7 +139,6 @@
 			files = (
 				43C317F72B8F864400F231DB /* ContentView.swift in Sources */,
 				43C317F52B8F864400F231DB /* MacrosApp.swift in Sources */,
-				43C318032B8F86EC00F231DB /* URLRequestBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

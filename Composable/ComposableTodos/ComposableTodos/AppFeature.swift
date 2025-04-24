@@ -14,11 +14,13 @@ struct AppFeature {
   struct State: Equatable {
     var tab1 = CreateTodoFeature.State()
     var tab2 = CreateTodoFeature.State()
+    var tab3 = ContactsFeature.State()
   }
   
   enum Action {
     case tab1(CreateTodoFeature.Action)
     case tab2(CreateTodoFeature.Action)
+    case tab3(ContactsFeature.Action)
   }
   
   // The basics of composing features together in it's simplest form
@@ -33,6 +35,10 @@ struct AppFeature {
     
     Scope(state: \.tab2, action: \.tab2) {
       CreateTodoFeature()
+    }
+    
+    Scope(state: \.tab3, action: \.tab3) {
+      ContactsFeature()
     }
     
     Reduce { state, action in

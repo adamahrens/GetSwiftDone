@@ -13,10 +13,12 @@ struct AppView: View {
   
   var body: some View {
     TabView {
-      CreateTodo(store: store.scope(state: \.tab1, action: \.tab1))
+      CreateTodoView(store: store.scope(state: \.tab1, action: \.tab1))
         .tabItem { Text("Create1") }
-      CreateTodo(store: store.scope(state: \.tab2, action: \.tab2))
+      CreateTodoView(store: store.scope(state: \.tab2, action: \.tab2))
         .tabItem { Text("Create2") }
+      ContactsView(store: store.scope(state: \.tab3, action: \.tab3))
+        .tabItem { Text("Contacts") }
     }
   }
 }

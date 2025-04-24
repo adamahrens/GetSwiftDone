@@ -8,7 +8,7 @@
 import SwiftUI
 import ComposableArchitecture
 
-struct CreateTodo: View {
+struct CreateTodoView: View {
   let store: StoreOf<CreateTodoFeature>
 
   @State private var todo = ""
@@ -73,7 +73,7 @@ struct CreateTodo: View {
 }
 
 #Preview {
-  CreateTodo(store: Store(initialState: CreateTodoFeature.State()) {
+  CreateTodoView(store: Store(initialState: CreateTodoFeature.State()) {
     CreateTodoFeature()
   })
 }
